@@ -1,7 +1,10 @@
 <?php
+echo"EXERCICES PHP 00/Serie 1 : Introduction";
+echo"<hr>";
 function helloWorld():void
 {
     echo"Hello World ! ";
+    echo"<hr>";
 }
 helloWorld();
 
