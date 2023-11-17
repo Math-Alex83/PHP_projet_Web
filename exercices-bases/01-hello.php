@@ -1,19 +1,19 @@
 <?php
-function helloWorld():void
+function helloWorld(): void
 {
-    echo"Hello World ! ";
+    echo "Hello World ! ";
 }
 helloWorld();
 
 
-function hello(string $name):string
+function hello(string $name): string
 {
-    if ($name != "") {
+    if ($name != "") 
+    {
         return "Hello $name";
-    } else {
+    } else 
+    {
         return "Hello Mr.Nobody";
     }
-    
-    
 }
 echo hello("");
